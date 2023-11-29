@@ -70,10 +70,10 @@ const services = [
                         <h4 class="headings">${service.Title}</h4>
                         <p class="ipsum">${service.About}</p>
                     </div>`
-                   
 
-            document.querySelector('.js-grid-items').innerHTML = serviceHtml        
-       })
+            document.querySelector('.js-grid-items').innerHTML = serviceHtml  
+
+       });
 
       
 
