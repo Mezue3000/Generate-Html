@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.my-grids {
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    column-gap: 55px;
+
+}
+
+
+.grid-icons {
+    color:rgb(255, 99, 71);
+    font-size: 40px;
+    font-weight: 30px;
+    line-height: 40px;
+
+}
+
+
+
+.grid-icons:hover {
+    background-color: white;
+}
+
+
+
+.card {
+    padding:40px 30px;
+    width: 320px;
+    color:white;
+    background-color:black;
+    margin-left: 85px;
+    margin-top: 20px;
+    margin-right:50px;
+    border-radius: 10px;
+
+}
+
+
+.card:hover {
+    background-color:blueviolet;
+}
+
